@@ -1,0 +1,10 @@
+```
+
+**Create `backend/.gitignore`** (protects your secrets):
+```
+# Never commit these to GitHub
+node_modules/
+.env
+local.settings.json
+dist/
+.funcignore

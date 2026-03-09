@@ -1,0 +1,18 @@
+{
+  "name": "threatlens-backend",
+  "version": "1.0.0",
+  "description": "ThreatLens Azure Functions Backend",
+  "main": "src/functions/index.js",
+  "scripts": {
+    "start": "func start",
+    "dev": "func start --verbose"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
